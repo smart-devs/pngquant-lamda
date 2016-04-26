@@ -1,0 +1,50 @@
+{
+  "name": "pngquant-lamda",
+  "version": "1.0.0",
+  "description": "pngquant wrapper that makes it available for aws lamda",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smart-devs/pngquant-lamda.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smart-devs/pngquant-lamda/issues"
+  },
+  "homepage": "https://github.com/smart-devs/pngquant-lamda#readme",
+  "author": {
+    "name": "Daniel Niedergesäß",
+    "email": "daniel.niedergesaess@gmail.com",
+    "url": "github.com/smart-devs"
+  },
+  "maintainers": [
+    {
+      "name": "dng-dev",
+      "email": "daniel.niedergesaess@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": {
+    "pngquant": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "compress",
+    "image",
+    "img",
+    "minify",
+    "optimize",
+    "png",
+    "aws",
+    "lamda"
+  ],
+  "dependencies": {
+    "bin-wrapper": "^3.0.0",
+    "logalot": "^2.0.0"
+  }
+}
